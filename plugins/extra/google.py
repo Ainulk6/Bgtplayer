@@ -59,7 +59,7 @@ def btn(text, value, type="callback_data"):
 
 
 
-@app.on_message(filters.command('google'))
+@app.on_message(filters.command('goolugul'))
 async def search_(bot: app, message: Message):
     split = message.text.split(None, 1)
     if len(split) == 1:
