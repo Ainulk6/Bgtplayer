@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @app.on_message(
-    filters.command("owner")
+    filters.command("owmmjj")
     & filters.group)
 async def owner(client: Client, message: Message):
     await message.reply_photo(
