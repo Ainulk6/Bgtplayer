@@ -173,7 +173,7 @@ async def start_comm(client, message: Message, _):
                 [
                     [
                         InlineKeyboardButton(
-                            text="• 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 •", url=f"{link}"
+                            text="• 𝗰𝗵𝗮𝘁 •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
                             text="🌿 𝐆𝐫𝐨𝐮𝐩 🌿", url=config.SUPPORT_GROUP
