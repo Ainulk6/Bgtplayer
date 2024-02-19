@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "bgt════════"
+        bar = "hyt════════"
     elif 10 < bikash < 20:
-        bar = "═bgt═══════"
+        bar = "═hyt═══════"
     elif 20 <= bikash < 30:
-        bar = "══bgt══════"
+        bar = "══hyt══════"
     elif 30 <= bikash < 40:
-        bar = "═══bgt═════"
+        bar = "═══hyt═════"
     elif 40 <= bikash < 50:
-        bar = "════bgt════"
+        bar = "════hyt════"
     elif 50 <= bikash < 60:
-        bar = "═════bgt═══"
+        bar = "═════hyt═══"
     elif 60 <= bikash < 70:
-        bar = "══════bgt══"
+        bar = "══════hyt══"
     elif 70 <= bikash < 80:
-        bar = "═══════bgt═"
+        bar = "═══════hyt═"
     elif 80 <= bikash < 95:
-        bar = "════════bgt"
+        bar = "════════hyt"
     else:
-        bar = "════════BGT"
+        bar = "════════hyt"
 
     buttons = [
         [
@@ -73,7 +73,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="📱 𝗰𝗵𝗮𝘁 📱", url=f"https://t.me/+m-lgexv7kYAwMDdl"
             )
         ],
         [
@@ -91,25 +91,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     bikash = math.floor(percentage)
     if 0 < bikash <= 10:
-        bar = "bgt════════"
+        bar = "hyt════════"
     elif 10 < bikash < 20:
-        bar = "═bgt═══════"
+        bar = "═hyt═══════"
     elif 20 <= bikash < 30:
-        bar = "══bgt══════"
+        bar = "══hyt══════"
     elif 30 <= bikash < 40:
-        bar = "═══bgt═════"
+        bar = "═══hyt═════"
     elif 40 <= bikash < 50:
-        bar = "════bgt════"
+        bar = "════hyt════"
     elif 50 <= bikash < 60:
-        bar = "═════bgt═══"
+        bar = "═════hyt═══"
     elif 60 <= bikash < 70:
-        bar = "══════bgt══"
+        bar = "══════hyt══"
     elif 70 <= bikash < 80:
-        bar = "═══════bgt═"
+        bar = "═══════hyt═"
     elif 80 <= bikash < 95:
-        bar = "════════bgt"
+        bar = "════════hyt"
     else:
-        bar = "════════BGT"
+        bar = "════════hyt"
 
     buttons = [
         [
@@ -150,7 +150,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="📱 𝗰𝗵𝗮𝘁 📱", url=f"https://t.me/+m-lgexv7kYAwMDdl"
             )
         ],
         [
@@ -174,7 +174,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="📱 𝗰𝗵𝗮𝘁 📱", url=f"https://t.me/+m-lgexv7kYAwMDdl"
             )
         ],
         [
@@ -220,7 +220,7 @@ def telegram_markup(_, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="📱 𝗰𝗵𝗮𝘁 📱", url=f"https://t.me/+m-lgexv7kYAwMDdl"
             )
         ],
         [
@@ -309,11 +309,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["P_B_1"],
-                callback_data=f"bikashPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"hayatoPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text=_["P_B_2"],
-                callback_data=f"bikashPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"hayatoPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
@@ -392,7 +392,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="📱 𝗰𝗵𝗮𝘁 📱", url=f"https://t.me/+m-lgexv7kYAwMDdl"
             )
         ],
         [
@@ -438,7 +438,7 @@ def telegram_markup(_, videoid, chat_id):
         ],
         [           
             InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
+                text="📱 𝗰𝗵𝗮𝘁 📱", url=f"https://youtube.com/@BikashGadgetsTech"
             )
         ],
         [
