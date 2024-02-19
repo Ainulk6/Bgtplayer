@@ -6,7 +6,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @app.on_message(
-    filters.command("donate")
+    filters.command("jxmje4")
     & filters.group)
 async def donate(client: Client, message: Message):
     await message.reply_photo(
