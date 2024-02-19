@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @app.on_message(
-    filters.command("repo")
+    filters.command("reo")
     & filters.group)
 async def repo(client: Client, message: Message):
     await message.reply_photo(
