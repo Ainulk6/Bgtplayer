@@ -28,7 +28,7 @@ class BikashBot(Client):
         self.username = get_me.username                
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "BgtxD Started"
+                config.LOG_GROUP_ID, "start_hyt_robo"
             )
         except:
             LOGGER(__name__).error(
